@@ -1,0 +1,1 @@
+/home/singularity/robpractice/src/scout_gazebo_sim/launch/spawn_scout.launch.py

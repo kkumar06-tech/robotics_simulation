@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/my_scout_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/my_scout_description
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.199s] -- Detecting CXX compile features
+[0.199s] -- Detecting CXX compile features - done
+[0.200s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.347s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.348s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.374s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.428s] -- Added test 'lint_cmake' to check CMake code style
+[0.429s] -- Added test 'xmllint' to check XML markup files
+[0.430s] -- Configuring done
+[0.431s] -- Generating done
+[0.432s] -- Build files have been written to: /home/singularity/robpractice/build/my_scout_description
+[0.438s] Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/my_scout_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/my_scout_description
+[0.438s] Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/my_scout_description -- -j16 -l16
+[0.464s] Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/my_scout_description -- -j16 -l16
+[0.472s] Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/my_scout_description
+[0.477s] -- Install configuration: ""
+[0.477s] -- Execute custom install script
+[0.477s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/ament_index/resource_index/package_run_dependencies/my_scout_description
+[0.484s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/ament_index/resource_index/parent_prefix_path/my_scout_description
+[0.489s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/ament_prefix_path.sh
+[0.494s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/ament_prefix_path.dsv
+[0.499s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/path.sh
+[0.504s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/path.dsv
+[0.510s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.bash
+[0.516s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.sh
+[0.523s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.zsh
+[0.530s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.dsv
+[0.535s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.dsv
+[0.542s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/ament_index/resource_index/packages/my_scout_description
+[0.549s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/cmake/my_scout_descriptionConfig.cmake
+[0.556s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/cmake/my_scout_descriptionConfig-version.cmake
+[0.561s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.xml
+[0.567s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/urdf/scout_mini.xacro
+[0.573s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/meshes/scout_mini_base_link.dae
+[0.580s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/meshes/wheel.dae
+[0.587s] Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/my_scout_description

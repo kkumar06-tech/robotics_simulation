@@ -245,7 +245,7 @@
         <sensor name="camera" type="camera">
             <topic>camera</topic>
             <ignition_frame_id>camera_link</ignition_frame_id>
-            <update_rate>13</update_rate>
+            <update_rate>15</update_rate>
             <camera>
                 <horizontal_fov>1.047</horizontal_fov>
                 <image>

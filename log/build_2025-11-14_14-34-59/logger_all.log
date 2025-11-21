@@ -1,0 +1,209 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70113f1720b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70113f2f3610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70113f2f3610>>)
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/singularity/robpractice'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_scout_description) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_scout_description' with type 'ros.ament_cmake' and name 'my_scout_description'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_gazebo_sim' with type 'ros.ament_cmake' and name 'scout_gazebo_sim'
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.263s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/singularity/robpractice/install/scout_gazebo_sim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.263s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/singularity/robpractice/install/my_scout_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.263s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/singularity/robpractice/install/scout_gazebo_sim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.263s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/singularity/robpractice/install/my_scout_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/singularity/robpractice/install
+[0.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 401 installed packages in /opt/ros/humble
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'my_scout_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'my_scout_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/singularity/robpractice/build/my_scout_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/singularity/robpractice/install/my_scout_description', 'merge_install': False, 'path': '/home/singularity/robpractice/src/my_scout_description', 'symlink_install': True, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'scout_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/singularity/robpractice/build/scout_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/singularity/robpractice/install/scout_gazebo_sim', 'merge_install': False, 'path': '/home/singularity/robpractice/src/scout_gazebo_sim', 'symlink_install': True, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/singularity/robpractice/src/my_scout_description' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/singularity/robpractice/src/my_scout_description'
+[0.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/singularity/robpractice/src/scout_gazebo_sim' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/singularity/robpractice/src/scout_gazebo_sim'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/my_scout_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/my_scout_description
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/scout_gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/scout_gazebo_sim
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/my_scout_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/my_scout_description
+[0.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/my_scout_description -- -j16 -l16
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/my_scout_description -- -j16 -l16
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/my_scout_description
+[1.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_scout_description)
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/my_scout_description
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description' for CMake module files
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description' for CMake config files
+[1.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_scout_description', 'cmake_prefix_path')
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/hook/cmake_prefix_path.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/hook/cmake_prefix_path.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/hook/cmake_prefix_path.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/lib/pkgconfig/my_scout_description.pc'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/lib/python3.10/site-packages'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/bin'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.sh'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.zsh'
+[1.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/singularity/robpractice/install/my_scout_description/share/colcon-core/packages/my_scout_description)
+[1.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_scout_description)
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description' for CMake module files
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description' for CMake config files
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_scout_description', 'cmake_prefix_path')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/hook/cmake_prefix_path.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/hook/cmake_prefix_path.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/hook/cmake_prefix_path.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/bin'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/lib/pkgconfig/my_scout_description.pc'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/lib/python3.10/site-packages'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/my_scout_description/bin'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.sh'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.bash'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.zsh'
+[1.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/singularity/robpractice/install/my_scout_description/share/colcon-core/packages/my_scout_description)
+[2.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/scout_gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/scout_gazebo_sim
+[2.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/scout_gazebo_sim -- -j16 -l16
+[2.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/scout_gazebo_sim -- -j16 -l16
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/scout_gazebo_sim
+[2.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_gazebo_sim)
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim' for CMake module files
+[2.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/scout_gazebo_sim
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim' for CMake config files
+[2.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_gazebo_sim', 'cmake_prefix_path')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.ps1'
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.dsv'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.sh'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/bin'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/lib/pkgconfig/scout_gazebo_sim.pc'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/lib/python3.10/site-packages'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/bin'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.ps1'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.sh'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.bash'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.zsh'
+[2.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/singularity/robpractice/install/scout_gazebo_sim/share/colcon-core/packages/scout_gazebo_sim)
+[2.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_gazebo_sim)
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim' for CMake module files
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim' for CMake config files
+[2.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_gazebo_sim', 'cmake_prefix_path')
+[2.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.ps1'
+[2.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.dsv'
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.sh'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/bin'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/lib/pkgconfig/scout_gazebo_sim.pc'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/lib/python3.10/site-packages'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/singularity/robpractice/install/scout_gazebo_sim/bin'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.sh'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.bash'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.zsh'
+[2.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/singularity/robpractice/install/scout_gazebo_sim/share/colcon-core/packages/scout_gazebo_sim)
+[2.697s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.697s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.697s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.697s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.703s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.712s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/singularity/robpractice/install/local_setup.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/singularity/robpractice/install/_local_setup_util_ps1.py'
+[2.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/singularity/robpractice/install/setup.ps1'
+[2.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/singularity/robpractice/install/local_setup.sh'
+[2.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/singularity/robpractice/install/_local_setup_util_sh.py'
+[2.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/singularity/robpractice/install/setup.sh'
+[2.717s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/singularity/robpractice/install/local_setup.bash'
+[2.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/singularity/robpractice/install/setup.bash'
+[2.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/singularity/robpractice/install/local_setup.zsh'
+[2.718s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/singularity/robpractice/install/setup.zsh'

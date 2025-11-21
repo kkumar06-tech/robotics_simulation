@@ -1,0 +1,140 @@
+[0.008s] Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/scout_gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/scout_gazebo_sim
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.450s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.485s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.489s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.497s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.557s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.639s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.661s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Looking for pthread.h
+[0.779s] -- Looking for pthread.h - found
+[0.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.847s] -- Found Threads: TRUE  
+[0.893s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.903s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.904s] -- Checking for module 'bullet>=2.82'
+[0.916s] --   Found bullet, version 3.05
+[1.000s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.042s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.059s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.082s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.092s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.096s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.101s] -- Searching for dependencies of ignition-math6
+[1.102s] -- Looking for OGRE...
+[1.103s] -- OGRE_PREFIX_WATCH changed.
+[1.107s] -- Checking for module 'OGRE'
+[1.118s] --   Found OGRE, version 1.9.0
+[1.144s] -- Found Ogre Ghadamon (1.9.0)
+[1.149s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.157s] -- Looking for OGRE_Paging...
+[1.161s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.161s] -- Looking for OGRE_Terrain...
+[1.166s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.166s] -- Looking for OGRE_Property...
+[1.170s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.170s] -- Looking for OGRE_RTShaderSystem...
+[1.174s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.175s] -- Looking for OGRE_Volume...
+[1.179s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.179s] -- Looking for OGRE_Overlay...
+[1.183s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.281s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.283s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.284s] -- Searching for dependencies of ignition-transport8
+[1.301s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.312s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.317s] -- Checking for module 'libzmq >= 4'
+[1.330s] --   Found libzmq , version 4.3.4
+[1.362s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.367s] -- Checking for module 'uuid'
+[1.378s] --   Found uuid, version 2.37.2
+[1.408s] -- Found UUID: TRUE  
+[1.410s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.411s] -- Searching for dependencies of ignition-msgs5
+[1.429s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.434s] -- Checking for module 'tinyxml2'
+[1.446s] --   Found tinyxml2, version 9.0.0
+[1.476s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.477s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.478s] -- Searching for dependencies of ignition-common3
+[1.478s] -- Looking for dlfcn.h - found
+[1.478s] -- Looking for libdl - found
+[1.480s] -- Found DL: TRUE  
+[1.489s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.489s] -- Searching for <ignition-common3> component [graphics]
+[1.490s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.491s] -- Searching for dependencies of ignition-common3-graphics
+[1.491s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.493s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.493s] -- Searching for dependencies of ignition-fuel_tools4
+[1.563s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.570s] -- Checking for module 'jsoncpp'
+[1.581s] --   Found jsoncpp, version 1.9.5
+[1.608s] -- Found JSONCPP: TRUE  
+[1.613s] -- Checking for module 'libzip'
+[1.623s] --   Found libzip, version 1.7.3
+[1.651s] -- Found ZIP: TRUE  
+[1.651s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.652s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.652s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.656s] -- Gazebo version: 11.10
+[1.656s] -- Checking for module 'tbb'
+[1.666s] --   Found tbb, version 2021.5.0
+[1.696s] -- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[1.807s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.069s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.091s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.172s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.172s] -- Added test 'lint_cmake' to check CMake code style
+[2.173s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.174s] -- Added test 'xmllint' to check XML markup files
+[2.174s] -- Configuring done
+[2.178s] -- Generating done
+[2.181s] -- Build files have been written to: /home/singularity/robpractice/build/scout_gazebo_sim
+[2.192s] Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/singularity/robpractice/src/scout_gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/singularity/robpractice/install/scout_gazebo_sim
+[2.192s] Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/scout_gazebo_sim -- -j16 -l16
+[2.232s] Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/scout_gazebo_sim -- -j16 -l16
+[2.234s] Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/scout_gazebo_sim
+[2.239s] -- Install configuration: ""
+[2.239s] -- Execute custom install script
+[2.240s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim//launch/spawn_scout.launch.py
+[2.249s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim//worlds/empty.world
+[2.255s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/config/bridge_config.yaml
+[2.264s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/rviz/scout_view.rviz
+[2.271s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/scout_gazebo_sim
+[2.279s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/scout_gazebo_sim
+[2.284s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/ament_prefix_path.sh
+[2.291s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/ament_prefix_path.dsv
+[2.299s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/path.sh
+[2.307s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/path.dsv
+[2.313s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.bash
+[2.319s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.sh
+[2.325s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.zsh
+[2.333s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.dsv
+[2.341s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv
+[2.349s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/ament_index/resource_index/packages/scout_gazebo_sim
+[2.356s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/cmake/scout_gazebo_simConfig.cmake
+[2.365s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/cmake/scout_gazebo_simConfig-version.cmake
+[2.372s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.xml
+[2.381s] Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/scout_gazebo_sim

@@ -1,8 +1,17 @@
+- ros_topic_name: "clock"
+  gz_topic_name: "clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "ignition.msgs.Clock"
+  direction: IGN_TO_ROS
+
+
+
 - ros_topic_name: "odom"
   gz_topic_name: "odom"
   ros_type_name: "nav_msgs/msg/Odometry"
   gz_type_name: "ignition.msgs.Odometry"
   direction: IGN_TO_ROS
+
 
 - ros_topic_name: "tf"
   gz_topic_name: "tf"

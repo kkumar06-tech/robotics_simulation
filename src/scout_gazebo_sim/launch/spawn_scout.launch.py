@@ -63,6 +63,7 @@ def generate_launch_description():
                 '-name', 'scout_mini',
                 '-x', '0', '-y', '0', '-z', '0.2',
             ],
+             parameters=[{'use_sim_time': True}],
         )]
     )
 
@@ -83,10 +84,28 @@ def generate_launch_description():
         parameters=[{'use_sim_time': True}],
     )
 
+    slam_node = Node(
+    package='slam_toolbox',
+    executable='async_slam_toolbox_node',
+    name='slam_toolbox',
+    output='screen',
+    parameters=[{
+        'use_sim_time': True,
+        'odom_frame': 'odom',
+        'map_frame': 'map',
+        'base_frame': 'base_link',
+        'scan_topic': '/scan',
+        'queue_size': 200  
+    }],
+    )
+
+
+
     return LaunchDescription([
         ign_gazebo,
         rsp_node,
         bridge_node,
         spawn_entity_node,
-        rviz_node
+        rviz_node,
+        slam_node
     ])

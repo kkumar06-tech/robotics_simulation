@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <sdf version="1.7">
     <world name="empty">
-        <physics name="10ms" type="ignored">
-            <max_step_size>0.01</max_step_size>
+        <physics name="10ms" type="ode">
+            <max_step_size>0.005</max_step_size>
             <real_time_factor>1</real_time_factor>
-            <real_time_update_rate>100</real_time_update_rate>
+            <real_time_update_rate>200</real_time_update_rate>
         </physics>
         <plugin name="ignition::gazebo::systems::Physics" filename="ignition-gazebo-physics-system"/>
         <plugin name="ignition::gazebo::systems::UserCommands" filename="ignition-gazebo-user-commands-system"/>

@@ -7,6 +7,8 @@
       },
       "includePath": [
         "/opt/ros/humble/include/**",
+        "/home/singularity/robpractice/src/my_scout_description/include/**",
+        "/home/singularity/robpractice/src/scout_gazebo_sim/include/**",
         "/usr/include/**"
       ],
       "name": "ros2",

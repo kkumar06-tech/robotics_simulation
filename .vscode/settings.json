@@ -6,11 +6,7 @@
     "python.analysis.extraPaths": [
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-<<<<<<< HEAD
-    ]
-=======
     ],
     "cmake.sourceDirectory": "/home/singularity/robpractice/src/scout_gazebo_sim",
     "github.copilot.chat.codeGeneration.useInstructionFiles": true
->>>>>>> da0d132e760fea841a26ecec92f3d0c447cb0ea2
 }

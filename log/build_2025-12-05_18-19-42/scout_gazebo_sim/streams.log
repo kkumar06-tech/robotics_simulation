@@ -1,0 +1,25 @@
+[0.168s] Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/scout_gazebo_sim -- -j16 -l16
+[0.209s] Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/scout_gazebo_sim -- -j16 -l16
+[0.211s] Invoking command in '/home/singularity/robpractice/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/scout_gazebo_sim
+[0.218s] -- Install configuration: ""
+[0.219s] -- Execute custom install script
+[0.219s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim//launch/spawn_scout.launch.py
+[0.219s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim//worlds/empty.world
+[0.220s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/config/bridge_config.yaml
+[0.220s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/rviz/scout_view.rviz
+[0.221s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/scout_gazebo_sim
+[0.221s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/scout_gazebo_sim
+[0.221s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/ament_prefix_path.sh
+[0.221s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/ament_prefix_path.dsv
+[0.221s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/path.sh
+[0.222s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/path.dsv
+[0.222s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.bash
+[0.222s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.sh
+[0.222s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.zsh
+[0.222s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.dsv
+[0.222s] -- Symlinking: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv
+[0.232s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/ament_index/resource_index/packages/scout_gazebo_sim
+[0.233s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/cmake/scout_gazebo_simConfig.cmake
+[0.234s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/cmake/scout_gazebo_simConfig-version.cmake
+[0.235s] -- Up-to-date symlink: /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/package.xml
+[0.247s] Invoked command in '/home/singularity/robpractice/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/scout_gazebo_sim

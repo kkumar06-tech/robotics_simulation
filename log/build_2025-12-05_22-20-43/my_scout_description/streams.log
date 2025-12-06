@@ -1,0 +1,24 @@
+[0.157s] Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/my_scout_description -- -j16 -l16
+[0.184s] Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --build /home/singularity/robpractice/build/my_scout_description -- -j16 -l16
+[0.193s] Invoking command in '/home/singularity/robpractice/build/my_scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/my_scout_description
+[0.196s] -- Install configuration: ""
+[0.196s] -- Execute custom install script
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/ament_index/resource_index/package_run_dependencies/my_scout_description
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/ament_index/resource_index/parent_prefix_path/my_scout_description
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/ament_prefix_path.sh
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/ament_prefix_path.dsv
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/path.sh
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/environment/path.dsv
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.bash
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.sh
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.zsh
+[0.197s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/local_setup.dsv
+[0.197s] -- Symlinking: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.dsv
+[0.204s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/ament_index/resource_index/packages/my_scout_description
+[0.204s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/cmake/my_scout_descriptionConfig.cmake
+[0.204s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/cmake/my_scout_descriptionConfig-version.cmake
+[0.204s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/package.xml
+[0.205s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/urdf/scout_mini.xacro
+[0.205s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/meshes/scout_mini_base_link.dae
+[0.205s] -- Up-to-date symlink: /home/singularity/robpractice/install/my_scout_description/share/my_scout_description/meshes/wheel.dae
+[0.206s] Invoked command in '/home/singularity/robpractice/build/my_scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/singularity/robpractice/install/autonomous_drive:/opt/ros/humble /usr/bin/cmake --install /home/singularity/robpractice/build/my_scout_description

@@ -177,37 +177,55 @@
         <child link="lidar_link"/>
     </joint>
       
+
+
       <!-- LiDAR Plugin -->
     <gazebo reference="lidar_link">
-      <sensor name="lidar" type="gpu_lidar">
-         <topic>scan</topic>
-         <ignition_frame_id>lidar_link</ignition_frame_id>  <!-- ADD THIS LINE -->
-         <update_rate>7</update_rate>
-         <lidar>
-            <scan>
-                <horizontal>
-                    <samples>360</samples>
-                    <resolution>1</resolution>
-                    <min_angle>-3.14159</min_angle>
-                    <max_angle>3.14159</max_angle>
-                </horizontal>
-            </scan>
-            <range>
-                <min>0.12</min>
-                <max>10.0</max>
-                <resolution>0.01</resolution>
-            </range>
-            <noise>
-                <type>gaussian</type>
-                <mean>0.0</mean>
-                <stddev>0.01</stddev>
-            </noise>
-         </lidar>
-         <always_on>1</always_on>
-         <visualize>true</visualize>
-     </sensor>
-    </gazebo>
+    <sensor name="lidar" type="gpu_lidar">
 
+    <!-- CHANGED: publish PointCloud2 instead of LaserScan -->
+    <topic>rslidar_points</topic>
+    <ignition_frame_id>lidar_link</ignition_frame_id>
+
+    <!-- CHANGED: Helios-16P rotates at 10Hz -->
+    <update_rate>10</update_rate>
+
+    <lidar>
+      <scan>
+
+        <!-- SAME: 360 horizontal, but denser -->
+        <horizontal>
+          <samples>1800</samples>          <!-- CHANGED: higher resolution -->
+          <resolution>1</resolution>
+          <min_angle>-3.14159</min_angle>
+          <max_angle>3.14159</max_angle>
+        </horizontal>
+
+        <!-- NEW: 16 vertical beams to simulate RS-Helios -->
+        <vertical>
+          <samples>16</samples>            <!-- NEW -->
+          <resolution>1</resolution>       <!-- NEW -->
+          <min_angle>-0.261799</min_angle> <!-- NEW (−15°) -->
+          <max_angle>0.261799</max_angle>  <!-- NEW (+15°) -->
+        </vertical>
+
+      </scan>
+
+      <!-- CHANGED: Range of RS-Helios up to 100 m -->
+      <range>
+        <min>0.2</min>
+        <max>100.0</max>
+        <resolution>0.01</resolution>
+      </range>
+
+    </lidar>
+
+    <always_on>1</always_on>
+    <visualize>true</visualize>
+
+  </sensor>
+</gazebo>
+ 
         <!-- Camera Sensor -->
     <link name="camera_link">
         <inertial>

@@ -1,0 +1,3 @@
+[console_scripts]
+obstacle_avoidance = autonomous_drive.obstacle_avoidance:main
+

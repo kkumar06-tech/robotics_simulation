@@ -1,1 +1,0 @@
-#SCOUT_MINI#

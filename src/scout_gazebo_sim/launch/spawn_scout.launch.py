@@ -51,6 +51,17 @@ def generate_launch_description():
     parameters=[{'use_sim_time': True}],
     )
 
+    ekf_node = Node(
+    package='robot_localization',
+    executable='ekf_node',
+    name='ekf_filter_node',
+    output='screen',
+    parameters=['/home/singularity/robpractice/config/ekf.yaml'],
+)
+
+
+
+
     # --- 7. Spawn the robot ---
     spawn_entity_node = TimerAction(
         period=2.0,
@@ -105,7 +116,9 @@ def generate_launch_description():
         ign_gazebo,
         rsp_node,
         bridge_node,
+        ekf_node,
         spawn_entity_node,
         rviz_node,
-        slam_node
+        slam_node,
+      
     ])

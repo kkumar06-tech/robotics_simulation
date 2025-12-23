@@ -13,16 +13,10 @@
   direction: IGN_TO_ROS
 
 
-- ros_topic_name: "tf"
-  gz_topic_name: "tf"
-  ros_type_name: "tf2_msgs/msg/TFMessage"
-  gz_type_name: "ignition.msgs.Pose_V"
-  direction: IGN_TO_ROS
-
-- ros_topic_name: "/rslidar_points"
-  gz_topic_name: "/rslidar_points/points"
-  ros_type_name: "sensor_msgs/msg/PointCloud2"
-  gz_type_name: "ignition.msgs.PointCloudPacked"
+- ros_topic_name: "scan"
+  gz_topic_name: "scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan"
   direction: IGN_TO_ROS
 
 

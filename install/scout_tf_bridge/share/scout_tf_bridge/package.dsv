@@ -1,0 +1,9 @@
+source;share/scout_tf_bridge/hook/pythonpath.ps1
+source;share/scout_tf_bridge/hook/pythonpath.dsv
+source;share/scout_tf_bridge/hook/pythonpath.sh
+source;share/scout_tf_bridge/hook/ament_prefix_path.ps1
+source;share/scout_tf_bridge/hook/ament_prefix_path.dsv
+source;share/scout_tf_bridge/hook/ament_prefix_path.sh
+source;../../build/scout_tf_bridge/share/scout_tf_bridge/hook/pythonpath_develop.ps1
+source;../../build/scout_tf_bridge/share/scout_tf_bridge/hook/pythonpath_develop.dsv
+source;../../build/scout_tf_bridge/share/scout_tf_bridge/hook/pythonpath_develop.sh

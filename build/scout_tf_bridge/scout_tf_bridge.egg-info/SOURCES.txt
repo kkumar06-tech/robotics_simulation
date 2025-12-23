@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/scout_tf_bridge
+scout_tf_bridge/__init__.py
+scout_tf_bridge/pose_to_tf.py
+scout_tf_bridge.egg-info/PKG-INFO
+scout_tf_bridge.egg-info/SOURCES.txt
+scout_tf_bridge.egg-info/dependency_links.txt
+scout_tf_bridge.egg-info/entry_points.txt
+scout_tf_bridge.egg-info/requires.txt
+scout_tf_bridge.egg-info/top_level.txt
+scout_tf_bridge.egg-info/zip-safe

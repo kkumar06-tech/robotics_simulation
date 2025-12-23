@@ -1,0 +1,17 @@
+[0.387s] Invoking command in '/home/singularity/robpractice/build/autonomous_drive': PYTHONPATH=/home/singularity/robpractice/build/autonomous_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/singularity/robpractice/install/autonomous_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/singularity/robpractice/build/autonomous_drive/build --no-deps symlink_data
+[0.535s] running develop
+[0.629s] running egg_info
+[0.630s] writing autonomous_drive.egg-info/PKG-INFO
+[0.630s] writing dependency_links to autonomous_drive.egg-info/dependency_links.txt
+[0.630s] writing entry points to autonomous_drive.egg-info/entry_points.txt
+[0.630s] writing requirements to autonomous_drive.egg-info/requires.txt
+[0.630s] writing top-level names to autonomous_drive.egg-info/top_level.txt
+[0.631s] reading manifest file 'autonomous_drive.egg-info/SOURCES.txt'
+[0.631s] writing manifest file 'autonomous_drive.egg-info/SOURCES.txt'
+[0.654s] running build_ext
+[0.654s] Creating /home/singularity/robpractice/install/autonomous_drive/lib/python3.10/site-packages/autonomous-drive.egg-link (link to .)
+[0.654s] Installing obstacle_avoidance script to /home/singularity/robpractice/install/autonomous_drive/lib/autonomous_drive
+[0.655s] 
+[0.655s] Installed /home/singularity/robpractice/build/autonomous_drive
+[0.655s] running symlink_data
+[0.672s] Invoked command in '/home/singularity/robpractice/build/autonomous_drive' returned '0': PYTHONPATH=/home/singularity/robpractice/build/autonomous_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/singularity/robpractice/install/autonomous_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/singularity/robpractice/build/autonomous_drive/build --no-deps symlink_data

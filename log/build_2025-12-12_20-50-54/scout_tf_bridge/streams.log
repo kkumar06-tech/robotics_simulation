@@ -1,0 +1,17 @@
+[0.588s] Invoking command in '/home/singularity/robpractice/build/scout_tf_bridge': PYTHONPATH=/home/singularity/robpractice/build/scout_tf_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/singularity/robpractice/install/scout_tf_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/singularity/robpractice/build/scout_tf_bridge/build --no-deps symlink_data
+[0.739s] running develop
+[0.840s] running egg_info
+[0.840s] writing scout_tf_bridge.egg-info/PKG-INFO
+[0.840s] writing dependency_links to scout_tf_bridge.egg-info/dependency_links.txt
+[0.840s] writing entry points to scout_tf_bridge.egg-info/entry_points.txt
+[0.841s] writing requirements to scout_tf_bridge.egg-info/requires.txt
+[0.841s] writing top-level names to scout_tf_bridge.egg-info/top_level.txt
+[0.841s] reading manifest file 'scout_tf_bridge.egg-info/SOURCES.txt'
+[0.842s] writing manifest file 'scout_tf_bridge.egg-info/SOURCES.txt'
+[0.866s] running build_ext
+[0.866s] Creating /home/singularity/robpractice/install/scout_tf_bridge/lib/python3.10/site-packages/scout-tf-bridge.egg-link (link to .)
+[0.867s] Installing pose_to_tf script to /home/singularity/robpractice/install/scout_tf_bridge/lib/scout_tf_bridge
+[0.867s] 
+[0.867s] Installed /home/singularity/robpractice/build/scout_tf_bridge
+[0.867s] running symlink_data
+[0.894s] Invoked command in '/home/singularity/robpractice/build/scout_tf_bridge' returned '0': PYTHONPATH=/home/singularity/robpractice/build/scout_tf_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/singularity/robpractice/install/scout_tf_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/singularity/robpractice/build/scout_tf_bridge/build --no-deps symlink_data

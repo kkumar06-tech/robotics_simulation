@@ -1,3 +1,4 @@
+/home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim//launch/nav2_scout.launch.py
 /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim//launch/spawn_scout.launch.py
 /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim//worlds/empty.world
 /home/singularity/robpractice/install/scout_gazebo_sim/share/scout_gazebo_sim/config/bridge_config.yaml

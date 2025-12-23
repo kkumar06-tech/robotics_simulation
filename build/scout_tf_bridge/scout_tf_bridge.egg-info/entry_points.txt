@@ -1,0 +1,3 @@
+[console_scripts]
+pose_to_tf = scout_tf_bridge.pose_to_tf:main
+

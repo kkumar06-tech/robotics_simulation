@@ -1,0 +1,25 @@
+[0.586s] Invoking command in '/home/singularity/robpractice/build/scout_tf_bridge': PYTHONPATH=/home/singularity/robpractice/build/scout_tf_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/singularity/robpractice/install/scout_tf_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/singularity/robpractice/build/scout_tf_bridge/build --no-deps symlink_data
+[0.734s] running develop
+[0.805s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:355: UserWarning: Unbuilt egg for autonomous-drive [unknown version] (/home/singularity/robpractice/build/autonomous_drive)
+[0.805s]   self.local_index = Environment(self.shadow_path + sys.path)
+[0.836s] running egg_info
+[0.836s] creating scout_tf_bridge.egg-info
+[0.837s] writing scout_tf_bridge.egg-info/PKG-INFO
+[0.837s] writing dependency_links to scout_tf_bridge.egg-info/dependency_links.txt
+[0.837s] writing entry points to scout_tf_bridge.egg-info/entry_points.txt
+[0.837s] writing requirements to scout_tf_bridge.egg-info/requires.txt
+[0.837s] writing top-level names to scout_tf_bridge.egg-info/top_level.txt
+[0.837s] writing manifest file 'scout_tf_bridge.egg-info/SOURCES.txt'
+[0.838s] reading manifest file 'scout_tf_bridge.egg-info/SOURCES.txt'
+[0.838s] writing manifest file 'scout_tf_bridge.egg-info/SOURCES.txt'
+[0.862s] running build_ext
+[0.863s] Creating /home/singularity/robpractice/install/scout_tf_bridge/lib/python3.10/site-packages/scout-tf-bridge.egg-link (link to .)
+[0.863s] 
+[0.863s] Installed /home/singularity/robpractice/build/scout_tf_bridge
+[0.863s] running symlink_data
+[0.863s] creating /home/singularity/robpractice/install/scout_tf_bridge/share/ament_index
+[0.863s] creating /home/singularity/robpractice/install/scout_tf_bridge/share/ament_index/resource_index
+[0.863s] creating /home/singularity/robpractice/install/scout_tf_bridge/share/ament_index/resource_index/packages
+[0.863s] symbolically linking /home/singularity/robpractice/build/scout_tf_bridge/resource/scout_tf_bridge -> /home/singularity/robpractice/install/scout_tf_bridge/share/ament_index/resource_index/packages
+[0.863s] symbolically linking /home/singularity/robpractice/build/scout_tf_bridge/package.xml -> /home/singularity/robpractice/install/scout_tf_bridge/share/scout_tf_bridge
+[0.881s] Invoked command in '/home/singularity/robpractice/build/scout_tf_bridge' returned '0': PYTHONPATH=/home/singularity/robpractice/build/scout_tf_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/singularity/robpractice/install/scout_tf_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/singularity/robpractice/build/scout_tf_bridge/build --no-deps symlink_data
